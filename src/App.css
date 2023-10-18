@@ -13,6 +13,68 @@
   }
 }
 
+
+.body{
+  margin-left: 230px;
+  
+}
+
+.card{
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table{
+  font-size: 13px;
+}
+
+@media screen and (min-width: 420px){
+  .dashboard-btn{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .search-inp.active{
+    display: block;
+  }
+
+  
+
+}
+  @media screen and (max-width: 420px) {
+    .sidebar {
+      display: none;
+    }
+
+    .search-inp{
+      display: none;
+    }
+    .body {
+      margin-left: 0;
+      
+    }
+
+    .card-col{
+      width: 50%;
+      text-align: center;
+      
+
+    }
+
+    .piechart-card{
+      text-align: center;
+    }
+  
+  }
+
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
